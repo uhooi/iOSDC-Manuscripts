@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    image_size (3.4.0)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    review (5.9.0)
+      image_size
+      rexml
+      rouge
+      rubyzip
+      tty-logger
+    rexml (3.3.0)
+      strscan
+    rouge (4.3.0)
+    rubyzip (2.3.2)
+    strscan (3.1.0)
+    tty-color (0.6.0)
+    tty-logger (0.6.0)
+      pastel (~> 0.8)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  review
+
+BUNDLED WITH
+   2.4.10
